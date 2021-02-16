@@ -41,13 +41,13 @@ function restart() {
 function wurfeln() {
     if (wurfel == 0) return;
 
-    count++;
-
-    $("#count").attr("value", count);
-
     if (lastwurfel !== wurfel) {
         entfernen();
     }
+
+    count++;
+
+    $("#count").attr("value", count);
 
     if (wurfel == 0) {
         $("#wurfelcontainer").empty();
