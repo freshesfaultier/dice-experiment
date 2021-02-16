@@ -16,6 +16,7 @@ window.onload = function () {
 function restart() {
     wurfel = 150;
     count = 0;
+    lastwurfel = 150;
     $("#count").attr("value", count);
     $("#wurfel-count").attr("value", wurfel);
     $("#wurfelcontainer").empty();
